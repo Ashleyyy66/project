@@ -141,7 +141,7 @@ The Sentinel-2 `.SAFE` files are too large to include here. To download:
 
 Once your data are in place and paths updated, simply run through the notebook cells to reproduce the analysis and classification results.
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
