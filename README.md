@@ -6,7 +6,28 @@
 ![image](https://github.com/user-attachments/assets/e786daee-21db-47d2-8a48-621d323f9f6f)
 
 ## Short Description
-This project uses an unsupervised, rule-based classification method to generate land cover classes from Sentinel-2 imagery. Spectral indices including NDVI, NDWI, NDMI, and NDBI were computed and thresholded to identify vegetation, water, urban, and bare land areas without requiring labeled training data.
+
+**Course Context:**  
+This work was carried out for the **GEOL0069: Artificial Intelligence for Earth Observation** module at UCL.
+
+
+**Background:**  
+Accurate maps of land use and land cover (LULC) are essential for environmental planning, agricultural management, and water-resource monitoring. Satellite imagery—especially from the European Space Agency’s Sentinel-2 sensors—provides high-resolution, multi-spectral data for large-scale LULC mapping. 
+
+**Problem Statement:**  
+In central Iowa, seasonal vegetation cycles and narrow river channels challenge automated classification: simple index thresholds can misclassify bare fields and often miss small streams in early-season imagery.
+
+**Objective:**  
+Generate a detailed LULC map of Iowa’s agricultural core by differentiating water bodies, vegetation, urban areas, and bare land.
+
+**Scope & Approach:**  
+- **Data:** Sentinel-2 Level-2A imagery (spring 2025) over an Iowa AOI  
+- **Indices:** Compute NDVI, NDWI, NDMI, and NDBI  
+- **Methods:**  
+  1. Rule-based thresholding of each index  
+  2. Unsupervised clustering via K-Means  
+- **Comparison:** Evaluate the strengths and limitations of each approach in a midwestern agricultural landscape
+
 
 ### Creating a Benchmark: Normalized Difference Vegetation Index (NDVI)  
 The NDVI is the most widely used indicator of live green vegetation, first introduced by Rouse et al. in 1973. It exploits the strong reflectance of healthy vegetation in the near-infrared and its absorption in the red wavelengths:
