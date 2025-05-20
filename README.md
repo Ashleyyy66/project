@@ -1,9 +1,12 @@
-# project
+<h1 align="centre">Land use and Land Cover Classification with Sentinel-2 Imagery</h1>
 
 <a name="readme-top"></a>
 
+<!-- PROJECT LOGO -->
+![image](https://github.com/user-attachments/assets/e786daee-21db-47d2-8a48-621d323f9f6f)
 
-
+## Short Description
+This project uses an unsupervised, rule-based classification method to generate land cover classes from Sentinel-2 imagery. Spectral indices including NDVI, NDWI, NDMI, and NDBI were computed and thresholded to identify vegetation, water, urban, and bare land areas without requiring labeled training data.
 
 ### Creating a Benchmark: Normalized Difference Vegetation Index (NDVI)  
 The NDVI is the most widely used indicator of live green vegetation, first introduced by Rouse et al. in 1973. It exploits the strong reflectance of healthy vegetation in the near-infrared and its absorption in the red wavelengths:
@@ -29,6 +32,8 @@ $$
 \mathrm{NDMI} = \frac{\text{NIR} - \text{SWIR}}{\text{NIR} + \text{SWIR}}
 $$
 
+<p align="right">(U.S. Geological Survey, n.d.)</p>
+
 - **Sentinel-2 Bands:**  
   - **B08** → Near-Infrared (842 nm, 10 m)  
   - **B11** → Short-Wave Infrared (1610 nm, 20 m)  
@@ -41,7 +46,7 @@ $$
   
 ---
 ### Creating a Benchmark: Normalized Difference Water Index (NDWI)  
-The NDWI was first introduced by McFeeters (1996) to map open water bodies by comparing green and near-infrared reflectance. NDWI index is often used synonymously with the NDMI index as referenced above. Here we adopt the following convention:
+The NDWI was first introduced by Xu (2006) to map open water bodies by comparing green and near-infrared reflectance. NDWI index is often used synonymously with the NDMI index as referenced above. Here we adopt the following convention:
 
 $$
 \text{NDWI} = \frac{\text{Green} - \text{NIR}}{\text{Green} + \text{NIR}}
@@ -158,3 +163,14 @@ Project Link: [https://github.com/captainbluebear/GEOL0069-ML-Inland-Water-Body
 <!-- ACKNOWLEDGMENTS -->
 # Acknowledgments
 This project was created for GEOL0069 at University College London, taught by Dr. Michel Tsamados and Weibin Chen.
+
+## References
+Xu, H. (2006). Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery. *International Journal of Remote Sensing*, *27*(14), 3025–3033. https://doi.org/10.1080/01431160600589179
+
+Zha, Y., Gao, J., & Ni, S. (2003). Use of Normalized Difference Built-up Index in automatically mapping urban areas from TM imagery. *International Journal of Remote Sensing*, *24*(3), 583–594. https://doi.org/10.1080/01431160304987
+
+Rouse, J. W., Haas, R. H., Deering, D. W., & Schell, J. A. (1973). *Monitoring the vernal advancement and retrogradation (green wave effect) of natural vegetation* (NASA Technical Report No. RSC-1973-1, pp. 44–47). College Station, TX: Remote Sensing Center, Texas A&M University.
+
+Sentinel Hub. (n.d.). *Normalized Difference Moisture Index (NDMI) – Sentinel-2 custom script*. Retrieved May 20, 2025, from https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndmi/
+
+U.S. Geological Survey. (n.d.). *Normalized Difference Moisture Index (NDMI)*. Retrieved May 20, 2025, from https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
