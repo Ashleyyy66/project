@@ -29,7 +29,7 @@ Generate a detailed LULC map of Iowa’s agricultural core by differentiating wa
 - **Comparison:** Evaluate the strengths and limitations of each approach in a midwestern agricultural landscape
 
 
-### Creating a Benchmark: Normalized Difference Vegetation Index (NDVI)  
+###  Normalized Difference Vegetation Index (NDVI)  
 The NDVI is the most widely used indicator of live green vegetation, first introduced by Rouse et al. in 1973. It exploits the strong reflectance of healthy vegetation in the near-infrared and its absorption in the red wavelengths:
 
 $$
@@ -46,7 +46,7 @@ $$
   In our Iowa AOI the NDVI histogram shows vegetation starting around **0.3**, so we adopt **NDVI > 0.30** to isolate green biomass.
 
 ---
-### Creating a Benchmark: Normalized Difference Moisture Index (NDMI)  
+###  Normalized Difference Moisture Index (NDMI)  
 The NDMI (sometimes called the Normalized Difference Water Index in SWIR) was introduced by Gao in 1996 to quantify vegetation and soil moisture by comparing NIR and SWIR:
 
 $$
@@ -66,7 +66,7 @@ $$
   In our data the NDMI distribution is centered near zero, so we apply **NDMI > 0.00** to flag moist or densely vegetated areas.
   
 ---
-### Creating a Benchmark: Normalized Difference Water Index (NDWI)  
+### Normalized Difference Water Index (NDWI)  
 The NDWI was first introduced by Xu (2006) to map open water bodies by comparing green and near-infrared reflectance. NDWI index is often used synonymously with the NDMI index as referenced above. Here we adopt the following convention:
 
 $$
@@ -90,7 +90,7 @@ This separation ensures that NDWI highlights surface water, while NDMI highlight
   The scene’s NDWI histogram is shifted toward lower values, so we apply **NDWI > 0.00** to reliably extract water features.
 
 ---
-### Creating a Benchmark: Normalized Difference Built-Up Index (NDBI)  
+### Normalized Difference Built-Up Index (NDBI)  
 The NDBI was proposed by Zha, Gao & Ni in 2003 to highlight urban and impervious surfaces, by contrasting SWIR reflectance (higher over concrete/asphalt) with NIR:
 
 $$
@@ -106,12 +106,10 @@ $$
 - **Thresholding:**  
   After up-sampling B11 to 10 m, the NDBI values in our scene cluster around zero, so we use **NDBI > 0.00** to detect built-up pixels.
 
+## The SENTINEL-2 Satellite
+The Sentinel-2 Multispectral Instrument (MSI) consists of two satellites (L2A and L2B) that collect images at three spatial resolutions: 10m, 20m, and 60m (Drusch et al., 2012). The four 10 m bands (Blue, Green, Red, and Near-Infrared) provide the highest spatial detail available for free, making Sentinel-2 ideal for fine-scale mapping (Abdi, 2019). 
+https://www.sciencedirect.com/topics/earth-and-planetary-sciences/remote-sensing-technology
 
-
-**Data Source:**  
-- **Sentinel-2 L2A** (10 m & 20 m bands) from Copernicus Data Space (via Google Earth Engine or direct download).  
-- Core 10 m bands: B02 (Blue), B03 (Green), B04 (Red), B08 (NIR).  
-- 20 m bands for indices: B05–B07 (red-edge), B8A (narrow NIR), B11–B12 (SWIR), plus the Scene Classification Layer (SCL) for cloud masking.
 
 <!-- GETTING STARTED -->
 
@@ -151,7 +149,7 @@ To get up and running:
     - 10 m: B02 (Blue), B03 (Green), B04 (Red), B08 (NIR)  
     - 20 m: B05–B07 (red-edge), B8A (narrow NIR), B11–B12 (SWIR), plus the Scene Classification Layer (SCL)
 
-This agricultural region was selected because it features a mix of water bodies, cropland, sparse vegetation and built-up areas—perfect for testing multi-class land-use classification.
+Central Iowa was selected because it features a mix of water bodies, cropland, sparse vegetation and built-up areas—perfect for testing multi-class land-use classification.
 
 
 
@@ -186,6 +184,11 @@ Project Link: [https://github.com/captainbluebear/GEOL0069-ML-Inland-Water-Body
 This project was created for GEOL0069 at University College London, taught by Dr. Michel Tsamados and Weibin Chen.
 
 ## References
+Abdi, A. M. (2019). Land cover and land use classification performance of machine learning algorithms in a boreal landscape using Sentinel-2 data. GIScience & Remote Sensing, 57(1), 1–20. https://doi.org/10.1080/15481603.2019.1650447
+
+Drusch, M., Del Bello, U., Carlier, S., Colin, O., Fernandez, V., Gascon, F., Hoersch, B., Isola, C., Laberinti, P., Martimort, P., Meygret, A., Morin, D., Sy, O., & Marchese, F. (2012). Sentinel-2: ESA’s Optical High-Resolution Mission for GMES Operational Services. *Remote Sensing of Environment, 120*, 25–36. https://doi.org/10.1016/j.rse.2011.11.026
+
+
 Xu, H. (2006). Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery. *International Journal of Remote Sensing*, *27*(14), 3025–3033. https://doi.org/10.1080/01431160600589179
 
 Zha, Y., Gao, J., & Ni, S. (2003). Use of Normalized Difference Built-up Index in automatically mapping urban areas from TM imagery. *International Journal of Remote Sensing*, *24*(3), 583–594. https://doi.org/10.1080/01431160304987
