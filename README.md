@@ -106,9 +106,25 @@ $$
 - **Thresholding:**  
   After up-sampling B11 to 10 m, the NDBI values in our scene cluster around zero, so we use **NDBI > 0.00** to detect built-up pixels.
 
-## The SENTINEL-2 Satellite
-The Sentinel-2 Multispectral Instrument (MSI) consists of two satellites (L2A and L2B) that collect images at three spatial resolutions: 10m, 20m, and 60m (Drusch et al., 2012). The four 10 m bands (Blue, Green, Red, and Near-Infrared) provide the highest spatial detail available for free, making Sentinel-2 ideal for fine-scale mapping (Abdi, 2019). 
-https://www.sciencedirect.com/topics/earth-and-planetary-sciences/remote-sensing-technology
+## The Sentinel-2 Satellite
+The Sentinel-2 Multispectral Instrument (MSI) consists of two satellites (L2A and L2B), with each MSI acquires data in 13 spectral bands spanning the visible, near-infrared and short-wave infrared (SWIR) regions (443–2190 nm), at three spatial resolutions (10 m, 20 m and 60 m) (Drusch et al., 2012). The four 10 m bands (Blue, Green, Red, and Near-Infrared) provide the highest spatial detail available for free, making Sentinel-2 ideal for fine-scale mapping (Abdi, 2019), while the 20 m red-edge and SWIR bands enhance discrimination of vegetation stress and built-up areas, and the 60 m bands are devoted to cloud and aerosol screening. 
+
+
+
+
+<div align="center">
+  <div style="display:inline-block; text-align:center; margin-right:20px;">
+    <img src="https://github.com/user-attachments/assets/9cf37022-4a35-4b03-a80d-bbe88964fed4" alt="Remote sensing schematic" width="400" />
+    <div><strong>(a)</strong></div>
+  </div>
+  <div style="display:inline-block; text-align:center;">
+    <img src="https://github.com/user-attachments/assets/c594b33e-0259-4a16-9add-10f99214c8f0" alt="NDVI conceptual illustration" width="400" />
+    <div><strong>(b)</strong></div>
+  </div>
+</div>
+
+**Figure 2.** **(a)** Remote sensing schematic. **(b)** NDVI conceptual illustration, adapted from *Remote-sensing technology* (n.d.) by Elsevier. Retrieved May 21, 2025, from [https://doi.org/10.1016/j.rse.2011.11.026](https://doi.org/10.1016/j.rse.2011.11.026)
+
 
 
 <!-- GETTING STARTED -->
