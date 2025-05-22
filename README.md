@@ -43,7 +43,7 @@ $$
   - **Sparse vegetation or soil:** NDVI ≈ 0.2 – 0.5  
   - **Non-vegetated:** NDVI < 0.2  
 - **Thresholding:**  
-  In our Iowa AOI the NDVI histogram shows vegetation starting around **0.3**, so we adopt **NDVI > 0.30** to isolate green biomass.
+  In our Iowa AOI the NDVI histogram shows vegetation starting around **0.3**, so we adopt **NDVI > 0.0210** to isolate green biomass.
 
 ---
 ###  Normalized Difference Moisture Index (NDMI)  
@@ -62,8 +62,7 @@ $$
   - **High moisture/healthy canopy:** NDMI > 0.3  
   - **Moderate moisture:** NDMI ≈ 0.0 – 0.3  
   - **Dry soil or bare surfaces:** NDMI < 0  
-- **Thresholding:**  
-  In our data the NDMI distribution is centered near zero, so we apply **NDMI > 0.00** to flag moist or densely vegetated areas.
+
   
 ---
 ### Normalized Difference Water Index (NDWI)  
@@ -87,7 +86,7 @@ This separation ensures that NDWI highlights surface water, while NDMI highlight
   - **Vegetation:**  NDWI ≈ 0.0 – 0.2  
   - **Built-up/Soil:** NDWI ≈ –0.2 – 0.0  
 - **Threshold for our Iowa AOI:**  
-  The scene’s NDWI histogram is shifted toward lower values, so we apply **NDWI > 0.00** to reliably extract water features.
+  The scene’s NDWI histogram is shifted toward lower values, so we apply **NDWI > -0.0234** to reliably extract water features.
 
 ---
 ### Normalized Difference Built-Up Index (NDBI)  
@@ -104,7 +103,7 @@ $$
   - **Built-up areas:** NDBI > 0  
   - **Non-urban:** NDBI ≈ –0.2 – 0  
 - **Thresholding:**  
-  After up-sampling B11 to 10 m, the NDBI values in our scene cluster around zero, so we use **NDBI > 0.00** to detect built-up pixels.
+  After up-sampling B11 to 10 m, the NDBI values in our scene cluster around zero, so we use **NDBI > -0.0975** to detect built-up pixels.
 
 ## The Sentinel-2 Satellite
 The Sentinel-2 Multispectral Instrument (MSI) consists of two satellites (L2A and L2B), with each MSI acquires data in 13 spectral bands spanning the visible, near-infrared and short-wave infrared (SWIR) regions (443–2190 nm), at three spatial resolutions (10 m, 20 m and 60 m) (Drusch et al., 2012). The four 10 m bands (Blue, Green, Red, and Near-Infrared) provide the highest spatial detail available for free, making Sentinel-2 ideal for fine-scale mapping (Abdi, 2019), while the 20 m red-edge and SWIR bands enhance discrimination of vegetation stress and built-up areas, and the 60 m bands are devoted to cloud and aerosol screening. 
