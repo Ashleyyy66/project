@@ -110,7 +110,6 @@ The Sentinel-2 Multispectral Instrument (MSI) consists of two satellites (L2A an
 
 
 
-
 <div align="center">
   <div style="display:inline-block; text-align:center; margin-right:20px;">
     <img src="https://github.com/user-attachments/assets/9cf37022-4a35-4b03-a80d-bbe88964fed4" alt="Remote sensing schematic" width="400" />
@@ -123,6 +122,13 @@ The Sentinel-2 Multispectral Instrument (MSI) consists of two satellites (L2A an
 </div>
 
 **Figure 2.** **(a)** Remote sensing schematic. **(b)** NDVI conceptual illustration, adapted from *Remote-sensing technology* (n.d.) by Elsevier. Retrieved May 21, 2025, from [https://doi.org/10.1016/j.rse.2011.11.026](https://doi.org/10.1016/j.rse.2011.11.026)
+
+
+## Unsupervised K-Means vs. Rule-Based Classification Pipeline
+  ![thumbnail_original-6F39BFA0-F642-472B-9647-D3F9577FCED1](https://github.com/user-attachments/assets/bf6e9f07-3042-4a91-8c85-4394c07982a3)
+
+
+
 
 
 
