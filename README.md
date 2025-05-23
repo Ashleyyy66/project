@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 ![image](https://github.com/user-attachments/assets/e786daee-21db-47d2-8a48-621d323f9f6f)
 
-## Short Description
+# Short Description
 
 **Course Context:**  
 This work was carried out for the **GEOL0069: Artificial Intelligence for Earth Observation** module at UCL.
@@ -28,8 +28,8 @@ Generate a detailed LULC map of Iowa’s agricultural core by differentiating wa
   2. Unsupervised clustering via K-Means  
 - **Comparison:** Evaluate the strengths and limitations of each approach in a midwestern agricultural landscape
 
----
 
+## More on Methods (Rule-based Indices)
 ###  Normalized Difference Vegetation Index (NDVI)  
 The NDVI is the most widely used indicator of live green vegetation, first introduced by Rouse et al. in 1973. It exploits the strong reflectance of healthy vegetation in the near-infrared and its absorption in the red wavelengths:
 
@@ -135,7 +135,7 @@ The Sentinel-2 Multispectral Instrument (MSI) consists of two satellites (L2A an
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+# Getting Started
 
 This project is built in **Google Colab**, but you can also run it locally in any Jupyter environment.
 
@@ -202,6 +202,9 @@ Project Link: [https://github.com/captainbluebear/GEOL0069-ML-Inland-Water-Body
 
 
 <!-- ACKNOWLEDGMENTS -->
+
+
+
 # Acknowledgments
 This project was created for GEOL0069 at University College London, taught by Dr. Michel Tsamados and Weibin Chen.
 
@@ -220,3 +223,8 @@ Rouse, J. W., Haas, R. H., Deering, D. W., & Schell, J. A. (1973). *Monitoring t
 Sentinel Hub. (n.d.). *Normalized Difference Moisture Index (NDMI) – Sentinel-2 custom script*. Retrieved May 20, 2025, from https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndmi/
 
 U.S. Geological Survey. (n.d.). *Normalized Difference Moisture Index (NDMI)*. Retrieved May 20, 2025, from https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
+
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
