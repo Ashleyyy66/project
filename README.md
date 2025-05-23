@@ -213,17 +213,15 @@ Abdi, A. M. (2019). Land cover and land use classification performance of machin
 
 Drusch, M., Del Bello, U., Carlier, S., Colin, O., Fernandez, V., Gascon, F., Hoersch, B., Isola, C., Laberinti, P., Martimort, P., Meygret, A., Morin, D., Sy, O., & Marchese, F. (2012). Sentinel-2: ESA’s Optical High-Resolution Mission for GMES Operational Services. *Remote Sensing of Environment, 120*, 25–36. https://doi.org/10.1016/j.rse.2011.11.026
 
-
-Xu, H. (2006). Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery. *International Journal of Remote Sensing*, *27*(14), 3025–3033. https://doi.org/10.1080/01431160600589179
-
-Zha, Y., Gao, J., & Ni, S. (2003). Use of Normalized Difference Built-up Index in automatically mapping urban areas from TM imagery. *International Journal of Remote Sensing*, *24*(3), 583–594. https://doi.org/10.1080/01431160304987
-
 Rouse, J. W., Haas, R. H., Deering, D. W., & Schell, J. A. (1973). *Monitoring the vernal advancement and retrogradation (green wave effect) of natural vegetation* (NASA Technical Report No. RSC-1973-1, pp. 44–47). College Station, TX: Remote Sensing Center, Texas A&M University.
 
 Sentinel Hub. (n.d.). *Normalized Difference Moisture Index (NDMI) – Sentinel-2 custom script*. Retrieved May 20, 2025, from https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndmi/
 
 U.S. Geological Survey. (n.d.). *Normalized Difference Moisture Index (NDMI)*. Retrieved May 20, 2025, from https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
 
+Xu, H. (2006). Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery. *International Journal of Remote Sensing*, *27*(14), 3025–3033. https://doi.org/10.1080/01431160600589179
+
+Zha, Y., Gao, J., & Ni, S. (2003). Use of Normalized Difference Built-up Index in automatically mapping urban areas from TM imagery. *International Journal of Remote Sensing*, *24*(3), 583–594. https://doi.org/10.1080/01431160304987
 
 ## License
 
