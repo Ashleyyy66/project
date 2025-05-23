@@ -108,6 +108,8 @@ $$
 
 **Note**: Although we introduced four indices above (NDVI, NDWI, NDMI and NDBI), this notebook will focus only on NDVI (vegetation), NDWI (water) and NDBI (built-up/bare soil) to map vegetation, water bodies and bare land. NDMI is included for background but not used in the subsequent analysis.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## The Sentinel-2 Satellite
 The Sentinel-2 Multispectral Instrument (MSI) consists of two satellites (L2A and L2B), with each MSI acquires data in 13 spectral bands spanning the visible, near-infrared and short-wave infrared (SWIR) regions (443–2190 nm), at three spatial resolutions (10 m, 20 m and 60 m) (Drusch et al., 2012). The four 10 m bands (Blue, Green, Red, and Near-Infrared) provide the highest spatial detail available for free, making Sentinel-2 ideal for fine-scale mapping (Abdi, 2019), while the 20 m red-edge and SWIR bands enhance discrimination of vegetation stress and built-up areas, and the 60 m bands are devoted to cloud and aerosol screening. 
 
@@ -126,11 +128,12 @@ The Sentinel-2 Multispectral Instrument (MSI) consists of two satellites (L2A an
 
 **Figure 2.** **(a)** Remote sensing schematic. **(b)** NDVI conceptual illustration, adapted from *Remote-sensing technology* (n.d.) by Elsevier. Retrieved May 21, 2025, from [https://doi.org/10.1016/j.rse.2011.11.026](https://doi.org/10.1016/j.rse.2011.11.026)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Unsupervised K-Means vs. Rule-Based Classification Pipeline
   ![thumbnail_original-6F39BFA0-F642-472B-9647-D3F9577FCED1](https://github.com/user-attachments/assets/bf6e9f07-3042-4a91-8c85-4394c07982a3)
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
