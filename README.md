@@ -28,6 +28,7 @@ Generate a detailed LULC map of Iowa’s agricultural core by differentiating wa
   2. Unsupervised clustering via K-Means  
 - **Comparison:** Evaluate the strengths and limitations of each approach in a midwestern agricultural landscape
 
+---
 
 ###  Normalized Difference Vegetation Index (NDVI)  
 The NDVI is the most widely used indicator of live green vegetation, first introduced by Rouse et al. in 1973. It exploits the strong reflectance of healthy vegetation in the near-infrared and its absorption in the red wavelengths:
