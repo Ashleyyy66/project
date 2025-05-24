@@ -1,6 +1,8 @@
+<a name="readme-top"></a>
+
 <h1 align="centre">Land use and Land Cover Classification with Sentinel-2 Imagery</h1>
 
-<a name="readme-top"></a>
+
 
 <!-- PROJECT LOGO -->
 ![image](https://github.com/user-attachments/assets/e786daee-21db-47d2-8a48-621d323f9f6f)
