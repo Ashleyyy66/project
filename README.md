@@ -200,7 +200,7 @@ Once your data are in place and paths updated, simply run through the notebook c
 
 Boxuan Li - [zcqsbli@ucl.ac.uk](mailto:zcqsbli@ucl.ac.uk) 
 
-Project Link: [https://github.com/captainbluebear/GEOL0069-ML-Inland-Water-Body-Detection](https://github.com/Ashleyyy66/project)
+Project Link: [https://github.com/Ashleyyy66/project](https://github.com/Ashleyyy66/project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
