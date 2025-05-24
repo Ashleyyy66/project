@@ -231,3 +231,5 @@ Zha, Y., Gao, J., & Ni, S. (2003). Use of Normalized Difference Built-up Index i
 ## License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
